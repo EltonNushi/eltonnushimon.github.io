@@ -44,7 +44,7 @@ emt = [
     { id: "23-ST Elevation", src: "img/23-ST Elevation.gif",  name: "23-ST Elevation", current: false },
     { id: "24-Sinus Tachycardia", src: "img/24-Sinus Tachycardia.gif",  name: "24-Sinus Tachycardia", current: false },
     
-    // { id: "xxvid", src: "mp4/sinus-rhythm.mp4", name: "Sinus Rhythm (Video)", current: false, video: true }
+    { id: "xxvid", src: "mp4/sinus-rhythm.mp4", name: "Sinus Rhythm (Video)", current: false, video: true }
 ]
 
 input = [
