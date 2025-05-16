@@ -61,8 +61,13 @@ input = [
 core = {
     emt: emt,
     emt_current: {
+      //Your ajax post
+      $(".someSelector").append(data);
+      $("img.LoadedViaAjax").attr("src", $("img.hidden").attr("src"));
+      //The rest of your processing....
+
         src: "img/xx.png",
-        type: "gif"
+        type: "image"
     },
     input: input
 }
