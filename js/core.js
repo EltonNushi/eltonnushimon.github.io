@@ -48,14 +48,14 @@ emt = [
 ]
 
 input = [
-    { id: "cr", name: "Cap Refill",  data: null, visible: false },
-    { id: "bs", name: "Blood Glucose", data: null, visible: false },
-    { id: "rs", name: "Respiration", data: null, visible: false },
-    { id: "sp", name: "SpO2",        data: null, visible: false },
-    { id: "pl", name: "Pulse",       data: null, visible: false },
-    { id: "nb", name: "NIBP",        data: null, visible: false },
-    { id: "bt", name: "Body Temp",   data: null, visible: false },
-    { id: "yy", name: "Custom",      data: null, visible: false },
+    { id: "cr", name: "Capilary",  data: null, visible: false },
+    { id: "bs", name: "BG",        data: null, visible: false },
+    { id: "rs", name: "RR",        data: null, visible: false },
+    { id: "sp", name: "SpO2",      data: null, visible: false },
+    { id: "pl", name: "Pulse",     data: null, visible: false },
+    { id: "nb", name: "NIBP",      data: null, visible: false },
+    { id: "bt", name: "Temp",      data: null, visible: false },
+    { id: "yy", name: "Custom",    data: null, visible: false },
 ]
 
 core = {
