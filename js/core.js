@@ -61,7 +61,7 @@ input = [
 core = {
     emt: emt,
     emt_current: {
-        src: "img/xx.png",
+        src: "img.png",
         type: "image"
     },
     input: input
