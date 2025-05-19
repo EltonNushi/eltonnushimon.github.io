@@ -61,8 +61,8 @@ input = [
 core = {
     emt: emt,
     emt_current: {
-        src: "img/1-Sinus.png",
-        type: "video"
+        src: "img/1-Sinus.gif",
+        //type: "video"
     },
     input: input
 }
