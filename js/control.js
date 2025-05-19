@@ -29,7 +29,7 @@ app = new Vue({
         updateEMT: function(event) {
             //target = event.path[0].getAttribute("value")
             const state = event.currentTarget?.getAttribute("value")
-            const state = event.currentTarget?.getAttribute("type")
+            type = event.currentTarget?.getAttribute("type")
             //type = event.path[0].getAttribute("type")
             app.core.emt_current.src = target
             app.core.emt_current.type = type
