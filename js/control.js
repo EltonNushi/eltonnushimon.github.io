@@ -27,7 +27,8 @@ app = new Vue({
             app.core = restoreBackup()
         },
         updateEMT: function(event) {
-            target = event.path[0].getAttribute("value")
+            //target = event.path[0].getAttribute("value")
+            const state = event.currentTarget?.getAttribute("value")
             type = event.path[0].getAttribute("type")
             app.core.emt_current.src = target
             app.core.emt_current.type = type
