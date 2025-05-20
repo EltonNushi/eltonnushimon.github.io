@@ -31,8 +31,8 @@ app = new Vue({
             const state = event.currentTarget?.getAttribute("value")
             type = event.currentTarget?.getAttribute("type")
             //type = event.path[0].getAttribute("type")
-            app.core.emt_currentTarget.src = target
-            app.core.emt_currentTarget.type = type
+            app.core.emt_current.src = target
+            app.core.emt_current.type = type
             app.core.emt.forEach(function(el) {
                 el.current = (el.src === target)
             })
